@@ -10,9 +10,9 @@ section .data
     len3 equ $ - msg_3
     
     ; Declaración de variables numéricas
-    num1 dw 9 ; Primer número
-    num2 dw 3 ; Segundo número
-    num3 dw 2 ; Tercer número
+    num1 dw 9 ; Primer número (16 bits)
+    num2 dw 3 ; Segundo número (16 bits)
+    num3 dw 2 ; Tercer número (16 bits)
     res dw 0 ; Variable para guardar el resultado
 
 section .text
