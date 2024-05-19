@@ -1,6 +1,6 @@
 section .data
     ; Mensajes de inicio
-    msg_1 db 'División de 2 números de  32 bits!', 0xA  ; Mensaje inicial seguido de nueva linea
+    msg_1 db 'División de 2 números enteros de  32 bits!', 0xA  ; Mensaje inicial seguido de nueva linea
     len1 equ $ - msg_1 ; Calcula la longitud del mensaje
     msg_2 db 'Se dividiran los valores de 9 / 3', 0xA
     len2 equ $ - msg_2
