@@ -1,6 +1,6 @@
 section .data
     ; Mensajes de inicio
-    msg_1 db 'Resta de 3 números enteros!', 0xA  ; Mensaje inicial seguido de nueva linea
+    msg_1 db 'Resta de 3 números enteros de 16 bits!', 0xA  ; Mensaje inicial seguido de nueva linea
     len1 equ $ - msg_1 ; Calcula la longitud del mensaje
     msg_2 db 'Se restaran los valores de 9 y 3 y 2', 0xA
     len2 equ $ - msg_2
