@@ -1,6 +1,6 @@
 section .data
     ; Mensajes de inicio
-    msg_1 db 'Multiplicación de 2 números de  8 bits!', 0xA  ; Mensaje inicial seguido de nueva linea
+    msg_1 db 'Multiplicación de 2 números enteros de  8 bits!', 0xA  ; Mensaje inicial seguido de nueva linea
     len1 equ $ - msg_1 ; Calcula la longitud del mensaje
     msg_2 db 'Se multiplicaran los valores de 3 y 2', 0xA
     len2 equ $ - msg_2
