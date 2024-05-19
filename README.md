@@ -8,7 +8,7 @@
 Se adjunto resolución a los ejercicios planteados en el segundo material base de la semana 10
 
 ## :heavy_check_mark:Tecnología utilizada:
-- Lenguaje Ensamblado
+- Lenguaje Ensamblador NASM
 
 ## :computer:Entorno de Desarrollo utilizado:
 - <a href="https://www.tutorialspoint.com/compile_assembly_online.php">Tutorialspoint</a>
@@ -18,7 +18,7 @@ Se adjunto resolución a los ejercicios planteados en el segundo material base d
 
 ## :speech_balloon:Listado de ejercicios resueltos:
 
-### 1: Resta de 3 enteros de 16 bits
+### 1. Resta de 3 enteros de 16 bits
 
 **Archivo:** `resta_tres_enteros.asm`
 
@@ -26,7 +26,7 @@ Se adjunto resolución a los ejercicios planteados en el segundo material base d
 
 **Propósito:** Demostrar cómo usar registros de 16 bits para realizar una operación de resta múltiple y cómo manejar resultados en ensamblador.
 
-### 2. Multiplicación
+### 2. Multiplicación de 2 enteros de 8 bits
 
 **Archivo:** `multiplicacion.asm`
 
@@ -34,7 +34,7 @@ Se adjunto resolución a los ejercicios planteados en el segundo material base d
 
 **Propósito:** Enseñar cómo utilizar registros de 8 bits para operaciones de multiplicación y cómo manejar y mostrar resultados en formato ASCII.
 
-### 3. División
+### 3. División de 2 enteros de 32 bits
 
 **Archivo:** `division.asm`
 
